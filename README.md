@@ -16,5 +16,5 @@
 В файле `index.html` раскомментируйте оставшиеся части. Затем в файле `style.cs`s пропишите стили для класса `.recipe-grid`, чтобы список рецептов выглядел хорошо на экранах разных размеров. Используйте CSS-свойство `grid` или `flexbox` для создания отзывчивой сетки.
 
 ## Дополнительные материалы:
-Статься на эту тему - https://habr.com/ru/companies/ruvds/articles/718700/ 
-Видео - 
+Статься на эту тему - https://habr.com/ru/companies/ruvds/articles/718700/  
+Видео - https://youtube.com/shorts/iHeOyL0mPRk
