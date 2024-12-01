@@ -1,0 +1,74 @@
+/* Сброс стандартных стилей */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+/* Сетка для рецептов */
+.recipe-grid {
+  width: 100%;
+}
+
+/* Блок рецепта */
+.recipe-card {
+  margin: 0;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  container-type: inline-size;
+}
+
+/* Контейнер для контента карточки */
+.recipe-card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Картинка */
+.recipe-card__image {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  object-position: center center;
+}
+
+/* Заголовок рецепта */
+.recipe-card__title {
+  /* font-size: */
+
+  color: #e74c3c;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+/* Текст рецепта */
+.recipe-card__text {
+  /* font-size: */
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* Список ингредиентов */
+.recipe-card__ingredients {
+  list-style-type: none;
+  /* font-size: */
+}
+
+.recipe-card__ingredient {
+  margin-bottom: 0.5rem;
+}
